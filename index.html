@@ -3,13 +3,245 @@
 <head>
     <meta charset="UTF-8">
     <title>Главная страница</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--  Bootstrap  -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-<div>блабла</div>
-<h1>Это главная страница</h1>
 
-<h2>Второй заголовок</h2>
+<div class="container">
 
-<h3>Это третий</h3>
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <div class="navbar-header">
+                <a href="#">
+                    <img src="img/logo.png" alt="">
+                </a>
+            </div>
+            <ul class="nav navbar-nav nav-top">
+                <li class="">
+                    <a href="/">Новости и акции</a>
+                <li class="">
+                    <a href="/">Адреса и номера телефонов</a>
+                </li>
+
+                <li class="">
+                    <a href="/">О компании</a>
+                </li>
+
+                <li class="">
+                    <a href="/">Покупка, гарантия и ремонт</a>
+                </li>
+
+                <li class="">
+                    <a href="/">Вакансии</a>
+                </li>
+            </ul>
+
+            <ul class="nav navbar-nav nav-bottom navbar-nav-custom">
+                <li class="">
+
+                    <a href="/">Смартфоны</a>
+                    
+                </li>
+                <li class="">
+                    <a href="/">4G модемы</a>
+                </li>
+                <li class="">
+                    <a href="/">Продукция Xiaomi</a>
+                </li>
+                <li class="">
+                    <a href="/">Аксессуары</a>
+                </li>
+
+                <li class="nav-search-wrapper">
+                    <div class="nav-search">
+                        <div class="nav-search-btn">
+                            <i class="icon-search"></i>
+                        </div>
+
+                        <div class="nav-search-inner">
+                            <div class="nav-search-input">
+                                <form action="/" method="get" id="search_form">
+                                    <input type="text" name="keyword" placeholder="Поиск по каталогу" value="">
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Main slider -->
+    <div class="slider">
+        <img src="img/main-slider.png" alt="">
+    </div>
+
+    <!-- New items -->
+    <div class="row">
+        <h1>Новинки</h1>
+        <div class="row">
+            <!-- Slider 2 -->
+            <div class="col-lg-9">
+                <img src="img/news%20ph.png" alt="">
+                <img src="img/news%20ph.png" alt="">
+                <img src="img/news%20ph.png" alt="">
+            </div>
+
+            <div class="col-lg-3">
+                <div class="panel panel-default">
+                    <div>
+                        <h3 class="panel-title">REDMI K30 8/128 CDMA - СНОВА В ПРОДАЖЕ...</h3>
+                    </div>
+                    <div class="panel-body">
+                        <a href="#">Смартфон  представлен в сети-салонах Go  в следующих  приятных  цветах...</a>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div>
+                        <h3 class="panel-title">REDMI K30 8/128 CDMA - СНОВА В ПРОДАЖЕ...</h3>
+                    </div>
+                    <div class="panel-body">
+                        <a href="#">Смартфон  представлен в сети-салонах Go  в следующих  приятных  цветах...</a>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div>
+                        <h3 class="panel-title">REDMI K30 8/128 CDMA - СНОВА В ПРОДАЖЕ...</h3>
+                    </div>
+                    <div class="panel-body">
+                        <a href="#">Смартфон  представлен в сети-салонах Go  в следующих  приятных  цветах...</a>
+                    </div>
+                </div>
+            </div><!-- /.right-paragraph -->
+        </div><!-- left+right -->
+    </div><!-- /.new items -->
+
+    <!-- Smartphones -->
+    <div class="row">
+        <h1>Смартфоны</h1>
+        <!-- Slider 3 -->
+        <div class="row">
+            <img src="img/smartphones%20ph-1.png" alt="">
+            <img src="img/smartphones%20ph-2.png" alt="">
+            <img src="img/smartphones%20ph-2.png" alt="">
+            <img src="img/smartphones%20ph-2.png" alt="">
+        </div>
+    </div>
+
+    <!-- Products -->
+    <div class="row">
+        <h1>Продукция xiaomi</h1>
+        <!-- Slider 4 -->
+        <div class="row">
+            <img src="img/products.png" alt="">
+            <img src="img/products.png" alt="">
+            <img src="img/products.png" alt="">
+            <img src="img/products.png" alt="">
+        </div>
+    </div>
+
+    <!-- Store map -->
+    <div class="row">
+        <div class="col-lg-9">
+            <img src="img/map%20ph.png" alt="">
+        </div>
+        <div class="col-lg-3">
+            <div class="row">
+                <div>
+                    <h3>Тирасполь</h3>
+                    <p>Ул. Краснодонская,41, супермаркет Шериф-9</p>
+                </div>
+                <div>
+                    <h3>Бендеры</h3>
+                    <p>Ул. Краснодонская,41, супермаркет Шериф-9</p>
+                </div>
+                <div>
+                    <h3>Рыбница</h3>
+                    <p>Ул. Краснодонская,41, супермаркет Шериф-9</p>
+                </div>
+                <div class="btn btn-primary">Все магазины</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer-menu inset inset-large inset-brd-top margin-top-75">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3">
+                    <div class="text-x-large padding-bottom-15">Каталог товаров:</div>
+                    <ul class="list-unstyled text-large">
+                        <li><a href="/" class="text-success">Смартфоны</a></li>
+                        <li><a href="/" class="text-success">4G модемы</a></li>
+                        <li><a href="/" class="text-success">Продукция Xiaomi</a></li>
+                        <li><a href="/" class="text-success">Аксессуары</a></li>
+
+
+                        <li class="separator"></li>
+
+                    </ul>
+                </div>
+                <div class="col-sm-3">
+                    <div class="text-x-large padding-bottom-15">Компания:</div>
+                    <ul class="list-unstyled text-large">
+                        <li><a href="/" class="text-success">О компании</a></li>
+
+                        <li><a href="/" class="text-success">Новости</a></li>
+                        <li><a href="/" class="text-success">Адреса и номера телефонов</a></li>
+                        <li><a href="/" class="text-success">Вакансии</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-3">
+                    <div class="text-x-large padding-bottom-15">Информация:</div>
+                    <ul class="list-unstyled text-large">
+
+                        <li><a href="/" class="text-success">Гарантийные обязательства</a></li>
+                        <li><!--noindex--><a rel="nofollow" href="https://www.agroprombank.com/privateclients/credit_card/" class="text-success" target="_blank">Покупка в кредит</a><!--/noindex--></li>
+                        <li><!--noindex--><a rel="nofollow" href="https://www.agroprombank.com/privateclients/rassrochka/" class="text-success" target="_blank">Покупка в рассрочку</a><!--/noindex--></li>
+                        <li><a href="/" class="text-success">Технология VoLTE</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-3">
+                    <p class="padding-bottom-20">Официальный дилер <a href="http://idc.md/" target="_blank">IDC</a></p>
+                    <p class="text-muted">Служба поддержки: Время работы Пн.-Пт.: 9:00-18:00, Сб.: 9:00-13:00. Вс.:- выходной
+                    <p class="font-scada text-xxxx-large">0 (778) 2-22-28</p>
+                    <p>
+
+                    </p>
+                    <p class="text-large"><span class="text-muted">Почта:&nbsp;</span><a href="mailto:go@go-go.md" class="text-success">go@go-go.md</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4">© 2013 — 2020.Сеть салонов «<span class="text-success">GO</span>»       Официальный дилер IDC</div>
+                <div class="col-sm-4 text-left">
+                    <span class="text-green">Служба поддержки: 0-778-2-22-28</span>
+                    <p class="text-green">Почта: go@go-go.md</p>
+
+                </div>
+
+                <div class="col-sm-4 text-right soc">Группы в соц. сетях:
+                    <a href="https://www.facebook.com/gopmr" target="_blank">
+                        <img src="img/fb.png" alt="">
+                    </a>
+                    <a href="http://ok.ru/mobilnye" target="_blank">
+                        <img src="img/ok.png" alt="">
+                    </a>
+                    <a href="https://www.instagram.com/go_go.md/" target="_blank">
+                        <img src="img/ins.png" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
 </body>
 </html>
