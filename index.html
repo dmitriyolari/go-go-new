@@ -8,6 +8,10 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/slick-theme.css">
+    <link href="https://fonts.googleapis.com/css2?family=Scada:wght@700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/1252ff5ec5.js" crossorigin="anonymous"></script>
 </head>
 <body>
 <nav class="navbar navbar-expand-lg navbar-dark pt-3 pb-3">
@@ -38,35 +42,36 @@
                     <a class="nav-link border-bottom pb-0" href="#">Вакансии</a>
                 </li>
             </ul>
-            <div class="d-flex flex-row justify-content-start">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">СМАРТФОНЫ <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">4G МОДЕМЫ</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">ПРОДУКЦИЯ XIAOMI</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">АКСЕССУАРЫ</a>
-                    </li>
-                </ul>
 
-                <form class="form-inline d-flex justify-content-center md-form form-sm mt-0">
+            <ul class="navbar-nav mr-auto nav-2-line">
+                <li class="nav-item active">
+                    <a class="nav-link dropdown-menu-left" href="#">СМАРТФОНЫ <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">4G МОДЕМЫ</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">ПРОДУКЦИЯ XIAOMI</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">АКСЕССУАРЫ</a>
+                </li>
+
+                <form class="form-inline md-form form-sm">
                     <i class="fas fa-search active" aria-hidden="true"></i>
-                    <input class="form-control form-control-sm ml-3 w-75" type="text" placeholder="Поиск" aria-label="Search">
+                    <input class="form-control form-control-sm w-75" type="text" placeholder="Поиск" aria-label="Search">
                 </form>
-            </div>
-        </div>
-    </div>
+
+            </ul>
+
+        </div><!-- /.navbar-collapse -->
+    </div><!-- /.container -->
 </nav>
 <div class="container">
 
 
     <!-- Main slider -->
-    <div id="carouselExampleIndicators" class="carousel slide mt-4" data-ride="carousel">
+    <div id="carouselExampleIndicators" class="carousel slide mt-4 mb-5" data-ride="carousel">
         <ol class="carousel-indicators">
             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -106,85 +111,146 @@
     </div>
 
     <!-- New items -->
-    <div class="row">
-        <h1>Новинки</h1>
-        <div class="row">
+    <div class="row pt-5">
+
             <!-- Slider 2 -->
             <div class="col-lg-9">
-                <img src="img/news%20ph.png" alt="">
-                <img src="img/news%20ph.png" alt="">
-                <img src="img/news%20ph.png" alt="">
+                <h1>Новинки</h1>
+
+                <ul class="navbar-nav mr-auto navbar-expand">
+                    <li class="nav-item">
+                        <a href="/" class="nav-link">Телефоны</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/" class="nav-link">Аксессуары</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/" class="nav-link">Продукция xiaomi</a>
+                    </li>
+                </ul>
+
+                <div class="sliderNew">
+                    <div class="card">
+                        <img class="card-img-top" src="img/news-thumbnail.png" alt="">
+                    </div>
+                    <div class="card">
+                        <img src="img/news-thumbnail.png" alt="">
+                    </div>
+                    <div class="card">
+                        <img src="img/news-thumbnail.png" alt="">
+                    </div>
+                </div>
             </div>
 
             <div class="col-lg-3">
                 <div class="card text-white p-2" style="background-color: #FF6433">
-                    <h6 class="text-uppercase">REDMI K30 8/128 CDMA - СНОВА В ПРОДАЖЕ...</h6>
-                    <p class="card-text mb-0">Смартфон  представлен в сети-салонах Go  в следующих  приятных  цветах...</p>
-                    <small class="text-white text-right">25.09.2020</small>
+                    <a href="/">
+                        <h6 class="text-uppercase">REDMI K30 8/128 CDMA - СНОВА В ПРОДАЖЕ...</h6>
+                    </a>
+                    <a href="/">
+                        <p class="card-text mb-0">Смартфон  представлен в сети-салонах Go  в следующих  приятных  цветах...</p>
+                    </a>
+                    <a class="text-right" href="/">
+                        <small>25.09.2020</small>
+                    </a>
                 </div>
                 <div class="card text-white p-2" style="background-color: #633065">
-                    <h6 class="text-uppercase">REDMI K30 8/128 CDMA - СНОВА В ПРОДАЖЕ...</h6>
-                    <p class="card-text mb-0">Смартфон  представлен в сети-салонах Go  в следующих  приятных  цветах...</p>
-                    <small class="text-white text-right">25.09.2020</small>
+                    <a href="/">
+                        <h6 class="text-uppercase">REDMI K30 8/128 CDMA - СНОВА В ПРОДАЖЕ...</h6>
+                    </a>
+                    <a href="/">
+                        <p class="card-text mb-0">Смартфон  представлен в сети-салонах Go  в следующих  приятных  цветах...</p>
+                    </a>
+                    <a class="text-right" href="/">
+                        <small>25.09.2020</small>
+                    </a>
                 </div>
                 <div class="card text-white p-2 bg-success">
-                    <h6 class="text-uppercase">REDMI K30 8/128 CDMA - СНОВА В ПРОДАЖЕ...</h6>
-                    <p class="card-text mb-0">Смартфон  представлен в сети-салонах Go  в следующих  приятных  цветах...</p>
-                    <small class="text-white text-right">25.09.2020</small>
+                    <a href="/">
+                        <h6 class="text-uppercase">REDMI K30 8/128 CDMA - СНОВА В ПРОДАЖЕ...</h6>
+                    </a>
+                    <a href="/">
+                        <p class="card-text mb-0">Смартфон  представлен в сети-салонах Go  в следующих  приятных  цветах...</p>
+                    </a>
+                    <a class="text-right" href="/">
+                        <small>25.09.2020</small>
+                    </a>
                 </div>
             </div><!-- /.right-paragraph -->
-        </div><!-- left+right -->
+
     </div><!-- /.new items -->
 
     <!-- Smartphones -->
     <div class="row">
-        <h1>Смартфоны</h1>
         <!-- Slider 3 -->
-        <div class="row">
-            <img src="img/smartphones%20ph-1.png" alt="">
-            <img src="img/smartphones%20ph-2.png" alt="">
-            <img src="img/smartphones%20ph-2.png" alt="">
-            <img src="img/smartphones%20ph-2.png" alt="">
+        <div class="col">
+            <h1>Смартфоны</h1>
+            <div>
+                <img src="img/smartphones%20ph-1.png" alt="">
+                <img src="img/smartphones%20ph-2.png" alt="">
+                <img src="img/smartphones%20ph-2.png" alt="">
+                <img src="img/smartphones%20ph-2.png" alt="">
+            </div>
         </div>
     </div>
 
     <!-- Products -->
-    <div class="row">
-        <h1>Продукция xiaomi</h1>
         <!-- Slider 4 -->
         <div class="row">
-            <img src="img/products.png" alt="">
-            <img src="img/products.png" alt="">
-            <img src="img/products.png" alt="">
-            <img src="img/products.png" alt="">
+            <div class="col">
+                <div>
+                    <h1>Продукция xiaomi</h1>
+                    <img src="img/products.png" alt="">
+                    <img src="img/products.png" alt="">
+                    <img src="img/products.png" alt="">
+                    <img src="img/products.png" alt="">
+                </div>
+            </div>
         </div>
-    </div>
 
     <!-- Store map -->
-    <div class="row">
+    <div class="row store">
         <div class="col-lg-9">
             <img src="img/map%20ph.png" alt="">
         </div>
         <div class="col-lg-3">
             <div class="row">
-                <div>
-                    <h3>Тирасполь</h3>
-                    <p>Ул. Краснодонская,41, супермаркет Шериф-9</p>
+                <div class="card card-adress">
+                    <h3 class="card-title">Тирасполь</h3>
+                    <div class="card-text">
+                        <div>Ул. Краснодонская, 41, супермаркет Шериф-9</div>
+                        <div>
+                            <img src="img/clock.png" alt="">09:00- 19:00
+                            <img src="img/cell.png" alt="">0-533-21628
+                        </div>
+                    </div>
                 </div>
-                <div>
-                    <h3>Бендеры</h3>
-                    <p>Ул. Краснодонская,41, супермаркет Шериф-9</p>
+                <div class="card card-adress">
+                    <h3 class="card-title">Бендеры</h3>
+                    <div class="card-text">
+                        <div>Ул. Краснодонская, 41, супермаркет Шериф-9</div>
+                        <div>
+                            <img src="img/clock.png" alt="">09:00- 19:00
+                            <img src="img/cell.png" alt="">0-533-21628
+                        </div>
+                    </div>
                 </div>
-                <div>
-                    <h3>Рыбница</h3>
-                    <p>Ул. Краснодонская,41, супермаркет Шериф-9</p>
+                <div class="card card-adress">
+                    <h3 class="card-title">Рыбница</h3>
+                    <div class="card-text">
+                        <div>Ул. Краснодонская, 41, супермаркет Шериф-9</div>
+                        <div>
+                            <img src="img/clock.png" alt="">09:00- 19:00
+                            <img src="img/cell.png" alt="">0-533-21628
+                        </div>
+                    </div>
                 </div>
-                <div class="btn btn-success btn-block btn-rounded">Все магазины</div>
+                <a class="btn btn-success btn-block btn-rounded text-light">Все магазины</a>
             </div>
         </div>
     </div>
-
-    <div class="footer-menu inset inset-large inset-brd-top margin-top-75">
+</div>
+    <div class="footer-menu inset inset-large inset-brd-btm mt-5 pt-5 pb-5">
         <div class="container">
             <div class="row">
                 <div class="col-sm-3">
@@ -221,7 +287,7 @@
                     </ul>
                 </div>
                 <div class="col-sm-3">
-                    <p class="padding-bottom-20">Официальный дилер <a href="http://idc.md/" target="_blank">IDC</a></p>
+                    <p class="padding-bottom-20">Официальный дилер <a class="text-success" href="http://idc.md/" target="_blank">IDC</a></p>
                     <p class="text-muted">Служба поддержки: Время работы Пн.-Пт.: 9:00-18:00, Сб.: 9:00-13:00. Вс.:- выходной
                     <p class="font-scada text-xxxx-large">0 (778) 2-22-28</p>
                     <p>
@@ -229,22 +295,23 @@
                     </p>
                     <p class="text-large"><span class="text-muted">Почта:&nbsp;</span><a href="mailto:go@go-go.md" class="text-success">go@go-go.md</a></p>
                 </div>
-            </div>
-        </div>
-    </div>
-</div>
+            </div><!-- /.row -->
+        </div><!-- /.container -->
+    </div><!-- /.footer-menu -->
+
 
     <footer>
-        <div class="container">
+        <div class="container pt-3">
             <div class="row">
-                <div class="col-sm-4">© 2013 — 2020.Сеть салонов «<span class="text-success">GO</span>»       Официальный дилер IDC</div>
-                <div class="col-sm-4 text-left">
+                <div class="col-sm-4 text-success">© 2013 — 2020.Сеть салонов «GO»       Официальный дилер IDC</div>
+                <div class="col-sm-4 text-left text-success">
                     <span class="text-green">Служба поддержки: 0-778-2-22-28</span>
                     <p class="text-green">Почта: go@go-go.md</p>
 
                 </div>
 
-                <div class="col-sm-4 text-right soc">Группы в соц. сетях:
+                <div class="col-sm-4 text-right soc text-success d-flex">
+                    <span>Группы в соц. сетях:</span>
                     <a href="https://www.facebook.com/gopmr" target="_blank">
                         <img src="img/fb.png" alt="">
                     </a>
@@ -265,6 +332,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 <script src="assets/js/tooltips.js"></script>
+<script src="js/app.js"></script>
 
 </body>
 </html>
