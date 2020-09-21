@@ -113,19 +113,19 @@
     <!-- New items -->
     <div class="row pt-5">
 
+        <h1 class="header-block">Новинки</h1>
             <!-- Slider 2 -->
             <div class="col-lg-9">
-                <h1>Новинки</h1>
 
-                <ul class="navbar-nav mr-auto navbar-expand">
+                <ul class="navbar-nav mr-auto navbar-expand news-menu justify-content-between mt-3 mb-4">
                     <li class="nav-item">
-                        <a href="/" class="nav-link">Телефоны</a>
+                        <a class="news-item active-item" href="/" class="nav-link">Телефоны</a>
                     </li>
                     <li class="nav-item">
-                        <a href="/" class="nav-link">Аксессуары</a>
+                        <a class="news-item" href="/" class="nav-link">Аксессуары</a>
                     </li>
                     <li class="nav-item">
-                        <a href="/" class="nav-link">Продукция xiaomi</a>
+                        <a class="news-item" href="/" class="nav-link">Продукция xiaomi</a>
                     </li>
                 </ul>
 
@@ -184,7 +184,7 @@
     <div class="row">
         <!-- Slider 3 -->
         <div class="col">
-            <h1>Смартфоны</h1>
+            <h1  class="header-block">Смартфоны</h1>
             <div>
                 <img src="img/smartphones%20ph-1.png" alt="">
                 <img src="img/smartphones%20ph-2.png" alt="">
@@ -199,7 +199,7 @@
         <div class="row">
             <div class="col">
                 <div>
-                    <h1>Продукция xiaomi</h1>
+                    <h1 class="header-block">Продукция xiaomi</h1>
                     <img src="img/products.png" alt="">
                     <img src="img/products.png" alt="">
                     <img src="img/products.png" alt="">
@@ -210,18 +210,29 @@
 
     <!-- Store map -->
     <div class="row store">
+        <h1 class="header-block">Наши магазины</h1>
         <div class="col-lg-9">
-            <img src="img/map%20ph.png" alt="">
+            <!--Google map-->
+            <div id="map-container-google-1" class="z-depth-1-half map-container">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1374.430906541524!2d29.672181060912784!3d46.84201069265359!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40c902a0d6684e9b%3A0xe2d15d4d88cb96f0!2z0KjQtdGA0LjRhC0xOQ!5e0!3m2!1sru!2s!4v1600704211564!5m2!1sru!2s"
+                width="750" height="610" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            </div>
+
+            <!--Google Maps-->
         </div>
-        <div class="col-lg-3">
-            <div class="row">
+        <div class="col-lg-3 d-flex justify-content-between flex-column">
+
                 <div class="card card-adress">
                     <h3 class="card-title">Тирасполь</h3>
                     <div class="card-text">
                         <div>Ул. Краснодонская, 41, супермаркет Шериф-9</div>
-                        <div>
-                            <img src="img/clock.png" alt="">09:00- 19:00
-                            <img src="img/cell.png" alt="">0-533-21628
+                        <div class="shop-info">
+                            <div class="working-hours">
+                                <img src="img/clock.png" alt=""><span>09:00- 19:00</span>
+                            </div>
+                            <div class="tel-number">
+                                <img src="img/cell.png" alt=""><span>0-533-21628</span>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -229,9 +240,13 @@
                     <h3 class="card-title">Бендеры</h3>
                     <div class="card-text">
                         <div>Ул. Краснодонская, 41, супермаркет Шериф-9</div>
-                        <div>
-                            <img src="img/clock.png" alt="">09:00- 19:00
-                            <img src="img/cell.png" alt="">0-533-21628
+                        <div class="shop-info">
+                            <div class="working-hours">
+                                <img src="img/clock.png" alt=""><span>09:00- 19:00</span>
+                            </div>
+                            <div class="tel-number">
+                                <img src="img/cell.png" alt=""><span>0-533-21628</span>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -239,16 +254,20 @@
                     <h3 class="card-title">Рыбница</h3>
                     <div class="card-text">
                         <div>Ул. Краснодонская, 41, супермаркет Шериф-9</div>
-                        <div>
-                            <img src="img/clock.png" alt="">09:00- 19:00
-                            <img src="img/cell.png" alt="">0-533-21628
+                        <div class="shop-info">
+                            <div class="working-hours">
+                                <img src="img/clock.png" alt=""><span>09:00- 19:00</span>
+                            </div>
+                            <div class="tel-number">
+                                <img src="img/cell.png" alt=""><span>0-533-21628</span>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <a class="btn btn-success btn-block btn-rounded text-light">Все магазины</a>
-            </div>
-        </div>
-    </div>
+
+        </div><!-- /.col-lg-3 -->
+    </div><!-- /.row.store -->
 </div>
     <div class="footer-menu inset inset-large inset-brd-btm mt-5 pt-5 pb-5">
         <div class="container">
