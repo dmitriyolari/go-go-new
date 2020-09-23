@@ -1,0 +1,288 @@
+body {
+    font-family: Roboto, sans-serif;
+    background-color: #212121;
+    color: #fff;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1170px;
+}
+
+.header-block {
+    padding-left: 15px;
+}
+
+.navbar {
+    background-color: #303030;
+    font-family: Verdana, Helvetica, Arial, sans-serif;
+    font-size: 12px;
+}
+
+.nav-2-line {
+    font-family: Scada, sans-sserif;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.form-inline .form-control {
+    font-family: Verdana, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+}
+
+.fas.fa-search.active {
+    color: rgba(255,255,255,.5);
+    cursor: pointer;
+}
+
+.carousel-indicators li {
+    border: 2px solid #fff;
+    border-radius: 100%;
+    padding: 3px;
+    width: 13px;
+    height: 13px;
+    margin-right: 32px;
+    opacity: 1;
+    background-color: #a3a3a3;
+}
+
+.carousel-indicators li:last-child {
+    margin-right: 0;
+}
+
+.carousel-circle {
+    opacity: 1;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    opacity: .8;
+}
+
+.news-menu {
+    max-width: 480px;
+}
+
+.news-item {
+    color: #bebebe;
+    line-height: 1.57;
+}
+
+.active-item {
+    color: #00a658;
+}
+
+.btn-rounded {
+    border-radius: 2rem;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: 0.5rem;
+    margin-left: 0.5rem
+}
+
+.navbar-collapse.d-flex {
+    grid-row-gap: 1.5rem;
+}
+
+.form-control,
+.form-control:focus {
+    background-color: #303030;
+    border: 0;
+    box-shadow: none;
+    color: rgb(255,255,255);
+}
+
+.slider-new-tel {
+    grid-column-gap: 31px;
+}
+
+.card-tel {
+
+    border: 3px solid #00A658;
+    padding: 34px 28px 28px;
+    background-color: #292929;
+
+    text-align: center;
+
+    border-radius: 10px;
+}
+
+.card-tel-super {
+    border: 3px solid #E73F3F;
+
+    position: relative;
+}
+
+.card-tel-hit {
+    border: 3px solid #cd8240;
+}
+
+.card-tel-img {
+    width: 200px;
+    height: 202px;
+    border-radius: 10px;
+
+    background-color: #fff;
+}
+
+.card-tel-super .card-tel-img {
+    background-color: #E73F3F;
+}
+
+.card-tel-hit .card-tel-img {
+    background-color: #cd8240;
+}
+
+.card-tel-super:before {
+    content: "Суперцена";
+    background-color: #E73F3F;
+
+    font-size: 20px;
+    line-height: 1.1;
+    font-weight: 700;
+    text-transform: uppercase;
+
+    padding: 13px 14px;
+
+    border-radius: 5px 5px 0 0;
+
+    position: absolute;
+    top: -48px;
+    left: 31px;
+    z-index: 1;
+}
+
+.card-tel-hit:before {
+    content: "Топ продаж";
+    background-color: #cd8240;
+
+    font-size: 20px;
+    line-height: 1.1;
+    font-weight: 700;
+    text-transform: uppercase;
+
+    padding: 13px 14px;
+
+    border-radius: 5px 5px 0 0;
+
+    position: absolute;
+    top: -48px;
+    left: 31px;
+    z-index: 1;
+}
+
+.tel-model {
+    margin: 27px 0 29px;
+
+    font-size: 16px;
+    line-height: 1.375;
+    font-weight: 900;
+    color: #00A658;
+
+    text-decoration: underline;
+}
+
+.card-tel-super .tel-model {
+    color: #E73F3F;
+}
+
+.card-tel-hit .tel-model {
+    color: #cd8240;
+}
+
+.tel-price {
+    font-size: 20px;
+    line-height: 1.1;
+}
+
+.card-tel-credit {
+    margin-top: 13px;
+
+    font-size: 16px;
+    line-height: 1.375;
+    color: #99998B;
+}
+
+.card-tel-credit span {
+    color: #fff;
+}
+
+.card.text-white {
+    line-height: 1.25;
+}
+
+.card-news-head {
+    font-size: 18px;
+    line-height: 1.44;
+    font-weight: 900;
+}
+
+.card.text-white a {
+    color: #fff;
+}
+
+.card-bg-adress {
+    background-color: #212121;
+    max-width: 341px;
+}
+
+.card-bg-adress div {
+    color: #c4c4c4;
+}
+
+.adress-street {
+    font-size: 18px;
+    line-height: 1.44;
+    font-weight: 500;
+}
+
+.shop-info {
+    font-size: 16px;
+    line-height: 1.625;
+    font-weight: 500;
+}
+
+.shop-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 20px;
+}
+
+.working-hours span,
+.tel-number span {
+    margin-left: 7px;
+}
+
+.btn.btn-success.btn-block.btn-rounded.text-light {
+    text-decoration: underline;
+}
+
+.footer-menu {
+    font-family: Verdana, Helvetica, Arial, sans-serif;
+    background-color: #111;
+}
+
+.inset-brd-btm {
+    border-bottom: 1px solid #404040;
+}
+
+footer {
+    background-color: #303030;
+}
+
+footer .soc a {
+    margin-left: 20px
+}
+
+
+@media {
+
+}
