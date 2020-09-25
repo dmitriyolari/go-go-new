@@ -4,12 +4,6 @@ body {
     color: #fff;
 }
 
-*,
-*:before,
-*:after {
-    box-sizing: border-box;
-}
-
 .container {
     max-width: 1170px;
 }
@@ -100,14 +94,25 @@ body {
     color: rgb(255,255,255);
 }
 
+.card-date {
+    font-size: 14px;
+    line-height: 1.43;
+    font-weight: 300;
+
+    opacity: .9;
+}
+
 .slider-new-tel {
     grid-column-gap: 31px;
 }
 
 .card-tel {
+    width: 262px;
+    height: 444px;
+    justify-content: center;
+    align-items: center;
 
     border: 3px solid #00A658;
-    padding: 34px 28px 28px;
     background-color: #292929;
 
     text-align: center;
@@ -229,9 +234,35 @@ body {
     color: #fff;
 }
 
+.news-2 {
+    grid-column-gap: 29px;
+}
+
+.news-2 .card {
+    background-color: #343a40;
+    width: 263px;
+    height: 296px;
+
+    padding: 46px 7px 46px 18px;
+}
+
+.card-details {
+
+}
+
+.store-map-wrap {
+    grid-column-gap: 30px;
+}
+
+.google-map {
+    width: 750px;
+    height: 610px;
+}
+
 .card-bg-adress {
     background-color: #212121;
     max-width: 341px;
+    border: 0;
 }
 
 .card-bg-adress div {
@@ -245,15 +276,13 @@ body {
 }
 
 .shop-info {
-    font-size: 16px;
-    line-height: 1.625;
-    font-weight: 500;
-}
-
-.shop-info {
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin-top: 20px;
+
+    font-size: 16px;
+    line-height: 1.625;
+    font-weight: 500;
 }
 
 .working-hours span,
@@ -283,6 +312,8 @@ footer .soc a {
 }
 
 
-@media {
-
+@media (max-width: 1200px) {
+    .google-map {
+        width: 700px;
+    }
 }
