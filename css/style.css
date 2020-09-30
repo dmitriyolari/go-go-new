@@ -235,28 +235,35 @@ body {
 }
 
 .news-2 {
-    grid-column-gap: 29px;
+    grid-gap: 29px;
 }
 
 .news-2 .card {
     background-color: #343a40;
     width: 263px;
     height: 296px;
-
-    padding: 46px 7px 46px 18px;
 }
 
-.card-details {
-
+.card-details a:first-child {
+    text-decoration: underline;
 }
 
 .store-map-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
     grid-column-gap: 30px;
 }
 
 .google-map {
     width: 750px;
     height: 610px;
+}
+
+.store-adress {
+    display: flex;
+    flex-direction: column;
 }
 
 .card-bg-adress {
@@ -317,3 +324,24 @@ footer .soc a {
         width: 700px;
     }
 }
+
+@media (max-width: 768px) {
+    .news-2 {
+        justify-content: center;
+    }
+
+    .news-2-wrap h1 {
+        text-align: center;
+    }
+
+}
+ @media (max-width: 375px) {
+     .news-2 .card {
+         width: 100%;
+     }
+
+     .google-map {
+         width: 345px;
+         height: 327px;
+     }
+ }
