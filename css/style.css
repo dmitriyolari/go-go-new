@@ -126,6 +126,25 @@ body {
 }
 
 .card-tel-img {
+    border-radius: 10px;
+
+    background-color: #fff;
+}
+
+.card-tel-img img {
+    width: 200px;
+    height: 202px;
+}
+
+.card.card-tel.slick-slide.slick-current.slick-active {
+    width: 262px !important;
+}
+
+.card.card-tel.slick-slide.slick-active {
+    width: 262px !important;
+}
+
+.card-tel-img {
     display: inline-block;
 }
 
@@ -143,13 +162,7 @@ body {
     border: 3px solid #cd8240;
 }
 
-.card-tel-img {
-    width: 200px;
-    height: 202px;
-    border-radius: 10px;
 
-    background-color: #fff;
-}
 
 .card-tel-super .card-tel-img {
     background-color: #E73F3F;
