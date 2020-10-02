@@ -43,6 +43,8 @@ body {
     margin-right: 32px;
     opacity: 1;
     background-color: #a3a3a3;
+
+    cursor: pointer;
 }
 
 .carousel-indicators li:last-child {
@@ -75,11 +77,12 @@ body {
     border-radius: 2rem;
 }
 
-.navbar-expand-lg .navbar-nav .nav-link {
-    padding-right: 0;
+.nav.nav-pills li:first-child a {
     padding-left: 0;
-    margin-right: 0.5rem;
-    margin-left: 0.5rem
+}
+
+.nav.nav-pills a:hover {
+    color: #00A658;
 }
 
 .navbar-collapse.d-flex {
@@ -102,9 +105,11 @@ body {
     opacity: .9;
 }
 
-.slider-new-tel {
-    grid-column-gap: 31px;
+.slider-new-tel-three.slick-slider {
+
 }
+
+
 
 .card-tel {
     width: 262px;
@@ -118,6 +123,14 @@ body {
     text-align: center;
 
     border-radius: 10px;
+}
+
+.card-tel-img {
+    display: inline-block;
+}
+
+.slick-prev:before {
+    content: '';
 }
 
 .card-tel-super {
