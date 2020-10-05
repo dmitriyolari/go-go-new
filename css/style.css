@@ -105,18 +105,13 @@ body {
     opacity: .9;
 }
 
-.slider-new-tel-three.slick-slider {
-
-}
-
-
-
-.card-tel {
+.card.card-tel {
     width: 262px;
     height: 444px;
     justify-content: center;
     align-items: center;
 
+    padding-top: 34px;
     border: 3px solid #00A658;
     background-color: #292929;
 
@@ -125,27 +120,11 @@ body {
     border-radius: 10px;
 }
 
-.card-tel-img {
-    border-radius: 10px;
-
-    background-color: #fff;
-}
-
-.card-tel-img img {
-    width: 200px;
-    height: 202px;
-}
-
-.card.card-tel.slick-slide.slick-current.slick-active {
-    width: 262px !important;
-}
-
-.card.card-tel.slick-slide.slick-active {
-    width: 262px !important;
-}
-
-.card-tel-img {
-    display: inline-block;
+.card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .slick-prev:before {
@@ -162,14 +141,10 @@ body {
     border: 3px solid #cd8240;
 }
 
-
-
-.card-tel-super .card-tel-img {
-    background-color: #E73F3F;
-}
-
-.card-tel-hit .card-tel-img {
-    background-color: #cd8240;
+.card-tel-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .card-tel-super:before {
@@ -211,7 +186,7 @@ body {
 }
 
 .tel-model {
-    margin: 27px 0 29px;
+    /*margin: 27px 0 29px;*/
 
     font-size: 16px;
     line-height: 1.375;
@@ -230,6 +205,7 @@ body {
 }
 
 .tel-price {
+    margin-top: 29px;
     font-size: 20px;
     line-height: 1.1;
 }
