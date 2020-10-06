@@ -163,7 +163,8 @@ body {
 
 .slider-new-tel-four .slick-prev.slick-arrow {
     content: '';
-    background: url("../img/slick-prev-green.png") center no-repeat;
+    background: #00A658 url("../img/slick-prev-green.png") center no-repeat;
+    border-radius: 100%;
 
     font-size: 47px;
     color: transparent;
@@ -180,14 +181,15 @@ body {
 
 .slider-new-tel-four .slick-next.slick-arrow {
     content: '';
-    background: url("../img/slick-prev-green.png") center no-repeat;
+    background: #00A658 url("../img/slick-next-green.png") center no-repeat;
+    border-radius: 100%;
 
-    font-size: 77px;
+    font-size: 47px;
     color: transparent;
     opacity: 1;
 
-    width: 77px;
-    height: 77px;
+    width: 47px;
+    height: 47px;
 
     position: absolute;
     top: 50%;
