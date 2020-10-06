@@ -129,6 +129,36 @@ body {
 
 .slick-prev:before {
     content: '';
+    background: url("../img/slick-prev.png") center no-repeat;
+
+    font-size: 47px;
+    color: transparent;
+    opacity: 1;
+
+    width: 47px;
+    height: 47px;
+
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1000;
+}
+
+.slick-next:before {
+    content: '';
+    background: url("../img/slick-next.png") center no-repeat;
+
+    font-size: 47px;
+    color: transparent;
+    opacity: 1;
+
+    width: 47px;
+    height: 47px;
+
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1000;
 }
 
 .card-tel-super {
