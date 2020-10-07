@@ -161,7 +161,7 @@ body {
     z-index: 1000;
 }
 
-.slick-list.draggable   .slick-track {
+.slick-list.draggable .slick-track {
     display: flex;
     grid-gap: 30px;
 }
