@@ -161,6 +161,11 @@ body {
     z-index: 1000;
 }
 
+.slick-list.draggable   .slick-track {
+    display: flex;
+    grid-gap: 30px;
+}
+
 .slider-new-tel-four .slick-prev.slick-arrow {
     content: '';
     background: #00A658 url("../img/slick-prev-green.png") center no-repeat;
