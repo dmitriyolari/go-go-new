@@ -217,6 +217,10 @@ body {
     justify-content: center;
     align-items: center;
 }
+.card-tel-img img {
+    width: 200px;
+    height: 202px;
+}
 
 .card-tel-super:before {
     content: "Суперцена";
