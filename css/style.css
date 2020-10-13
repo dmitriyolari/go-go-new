@@ -70,20 +70,29 @@ body {
     line-height: 1.57;
 }
 
-.active-item {
-    color: #00a658;
-}
-
 .btn-rounded {
     border-radius: 2rem;
 }
 
-.nav.nav-pills li:first-child a {
+.nav-tabs {
+    border-bottom: 0;
+}
+
+.nav-tabs .nav-link {
+    border: 0;
+    padding-right: 0;
     padding-left: 0;
 }
 
-.nav.nav-pills a:hover {
+.nav-tabs .active.show {
+    background-color: #212121;
+    color: #00a658;
+    border: 0;
+}
+
+.nav.nav-tabs a:hover {
     color: #00A658;
+    border: 0;
 }
 
 .navbar-collapse.d-flex {
@@ -113,7 +122,7 @@ body {
     align-items: center;
 
     padding-top: 34px;
-    border: 3px solid #00A658;
+    border: 3px solid #00a658;
     background-color: #292929;
 
     text-align: center;
@@ -121,9 +130,9 @@ body {
     border-radius: 10px;
 }
 
-/*.card.card-tel:focus {
+.card.card-tel:focus {
     outline: 0;
-}*/
+}
 
 .card-body {
     display: flex;
@@ -177,15 +186,15 @@ body {
 
 .slider-new-tel-four .slick-prev.slick-arrow {
     content: '';
-    background: #00A658 url("../img/slick-prev-green.png") center no-repeat;
+    background: url("../img/slick-prev-green.png") center no-repeat;
     border-radius: 100%;
 
     font-size: 47px;
     color: transparent;
     opacity: 1;
 
-    width: 47px;
-    height: 47px;
+    width: 45px;
+    height: 45px;
 
     position: absolute;
     top: 50%;
@@ -195,15 +204,15 @@ body {
 
 .slider-new-tel-four .slick-next.slick-arrow {
     content: '';
-    background: #00A658 url("../img/slick-next-green.png") center no-repeat;
+    background: url("../img/slick-next-green.png") center no-repeat;
     border-radius: 100%;
 
     font-size: 47px;
     color: transparent;
     opacity: 1;
 
-    width: 47px;
-    height: 47px;
+    width: 45px;
+    height: 45px;
 
     position: absolute;
     top: 50%;

@@ -113,24 +113,25 @@
     <!-- New items -->
     <div>
     <h1>Новинки</h1>
-        <ul class="nav nav-pills news-menu justify-content-between mt-3 mb-4">
+        <ul class="nav nav-tabs news-menu justify-content-between mt-3 mb-4">
             <li role="presentation" class="active">
-                <a class="news-item active-item nav-link" href="/">Телефоны</a>
+                <a data-toggle="tab" class="news-item nav-link" href="#slider1">Телефоны</a>
             </li>
             <li role="presentation" class="nav-item">
-                <a class="news-item nav-link" href="/">Аксессуары</a>
+                <a data-toggle="tab" class="news-item nav-link" href="/">Аксессуары</a>
             </li>
             <li role="presentation" class="nav-item">
-                <a class="news-item nav-link" href="/">Продукция xiaomi</a>
+                <a data-toggle="tab" class="news-item nav-link" href="/">Продукция xiaomi</a>
             </li>
         </ul>
+
     <div class="row pt-2">
 
             <!-- Slider 2 -->
             <div class="col-lg-9">
 
 
-                <div class="slider-new-tel-three slick-slider">
+                <div id="slider1" class="tab-content slider-new-tel-three slick-slider">
                     <div class="card card-tel">
                         <div class="card-tel-img">
                             <a href="#">
@@ -268,7 +269,7 @@
         <div class="row mt-5">
             <div class="col">
                 <h1>Популярные товары</h1>
-                <div class="slider-new-tel-four mt-5">
+                <div id="slider2" class="tab-content slider-new-tel-four mt-5">
                     <div class="card card-tel">
                         <div class="card-tel-img">
                             <a href="#">
