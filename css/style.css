@@ -144,13 +144,14 @@ body {
 .slider-new-tel-three .slick-prev.slick-arrow {
     content: '';
     background: url("../img/slick-prev.png") center no-repeat;
+    border-radius: 100%;
 
     font-size: 47px;
     color: transparent;
     opacity: 1;
 
-    width: 47px;
-    height: 47px;
+    width: 45px;
+    height: 45px;
 
     position: absolute;
     top: 50%;
@@ -158,21 +159,30 @@ body {
     z-index: 1000;
 }
 
+.slider-new-tel-three .slick-prev.slick-arrow:hover {
+    background: url("../img/slick-prev-green.png") center no-repeat;
+}
+
 .slider-new-tel-three .slick-next.slick-arrow {
     content: '';
     background: url("../img/slick-next.png") center no-repeat;
+    border-radius: 100%;
 
     font-size: 47px;
     color: transparent;
     opacity: 1;
 
-    width: 47px;
-    height: 47px;
+    width: 45px;
+    height: 45px;
 
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
     z-index: 1000;
+}
+
+.slider-new-tel-three .slick-next.slick-arrow:hover {
+    background: url("../img/slick-next-green.png") center no-repeat;
 }
 
 .slick-list.draggable .slick-track {
@@ -186,7 +196,7 @@ body {
 
 .slider-new-tel-four .slick-prev.slick-arrow {
     content: '';
-    background: url("../img/slick-prev-green.png") center no-repeat;
+    background: url("../img/slick-prev.png") center no-repeat;
     border-radius: 100%;
 
     font-size: 47px;
@@ -202,9 +212,13 @@ body {
     z-index: 1000;
 }
 
+.slider-new-tel-four .slick-prev.slick-arrow:hover {
+    background: url("../img/slick-prev-green.png") center no-repeat;
+}
+
 .slider-new-tel-four .slick-next.slick-arrow {
     content: '';
-    background: url("../img/slick-next-green.png") center no-repeat;
+    background: url("../img/slick-next.png") center no-repeat;
     border-radius: 100%;
 
     font-size: 47px;
@@ -218,6 +232,10 @@ body {
     top: 50%;
     transform: translateY(-50%);
     z-index: 1000;
+}
+
+.slider-new-tel-four .slick-next.slick-arrow:hover {
+    background: url("../img/slick-next-green.png") center no-repeat;
 }
 
 .slick-track .card-tel-super {
