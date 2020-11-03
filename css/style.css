@@ -185,9 +185,13 @@ body {
     background: url("../img/slick-next-green.png") center no-repeat;
 }
 
-.slick-list.draggable .slick-track {
-    display: flex;
-    grid-gap: 30px;
+/* the slides */
+.slick-slide {
+    margin: 0 15px;
+}
+/* the parent */
+.slick-list {
+    margin: 0 -15px;
 }
 
 .slider-new-tel-four .slick-list.draggable .slick-track {

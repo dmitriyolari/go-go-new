@@ -16,5 +16,5 @@ $(function () {
     variableWidth: true,
   });
 
-
+  document.querySelector('.news-item.nav-link').click();
 });
