@@ -186,11 +186,19 @@ body {
 }
 
 /* the slides */
-.slick-slide > div {
+.slider-new-tel-three .slick-slide > div {
     margin: 0 8px;
 }
 /* the parent */
-.slick-list {
+.slider-new-tel-three .slick-list {
+    margin: 0 8px !important;
+}
+
+.slider-new-tel-four .slick-slide > div {
+    margin: 0 10px;
+}
+
+.slider-new-tel-four .slick-list {
     margin: 0 8px !important;
 }
 
