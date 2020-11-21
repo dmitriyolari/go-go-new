@@ -56,13 +56,32 @@ body {
     opacity: 1;
 }
 
+.carousel-control .glyphicon-chevron-left,
+.carousel-control .glyphicon-chevron-right{
+    width: 50px;
+    height: 50px;
+
+}
+.carousel-control .glyphicon-chevron-left{
+    left: -15px
+}
+
+.carousel-control .glyphicon-chevron-right{
+    right: -15px;
+}
+
 .carousel-control-prev,
 .carousel-control-next {
     opacity: .8;
 }
 
+.news-items .card{
+    padding: 0.5rem;
+}
+
 .news-menu {
     max-width: 480px;
+    margin-bottom: 1rem;
 }
 
 .news-item {
@@ -74,23 +93,24 @@ body {
     border-radius: 2rem;
 }
 
-.nav-tabs {
+.news-menu .nav-tabs {
     border-bottom: 0;
 }
 
-.nav-tabs .nav-link {
+.news-menu .nav-tabs .nav-link {
     border: 0;
-    padding-right: 0;
-    padding-left: 0;
+    background-color: transparent !important;
+    border: none !important;
+    background-image: unset !important;
 }
 
-.nav-tabs .active.show {
+.news-menu .nav-tabs.active.show .nav-link{
     background-color: #212121;
     color: #00a658;
     border: 0;
 }
 
-.nav.nav-tabs a:hover {
+.news-menu .nav-tabs .nav-link:hover {
     color: #00A658;
     border: 0;
 }
@@ -116,6 +136,7 @@ body {
 }
 
 .card.card-tel {
+    min-width: 1px;
     min-height: 444px;
     justify-content: center;
     align-items: center;

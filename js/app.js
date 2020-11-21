@@ -45,7 +45,14 @@ $(function () {
       }
     ]
   });
+  $(".carouselExampleIndicators").slick({
+
+  })
+
+  $('a[data-toggle="tab"]').on('shown.bs.tab', function (e) {
+    $('.slider-new-tel-three').slick('setPosition');
+  })
 
 });
 
-document.querySelector('.news-item.nav-link').click();
+

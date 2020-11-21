@@ -5,9 +5,12 @@
   <title>Главная страница</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!--  Bootstrap  -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<!--  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"-->
+<!--        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
   <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+  <link rel="stylesheet" href="css/old_style.css">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/slick.css">
   <link rel="stylesheet" href="css/slick-theme.css">
@@ -15,59 +18,72 @@
   <script src="https://kit.fontawesome.com/1252ff5ec5.js" crossorigin="anonymous"></script>
 </head>
 <body>
-<nav class="navbar navbar-expand-lg navbar-dark pt-3 pb-3">
-  <div class="container justify-content-start">
-    <div class="mr-5 ml-2">
-      <a href="#" class="navbar-brand">
-        <img src="img/logo.png" alt="Go-Go">
-      </a>
+<nav class="navbar navbar-default">
+  <div class="container">
+    <div class="navbar-header">
+      <a href="/" class="navbar-brand"></a>
     </div>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse d-flex flex-column" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a class="nav-link border-bottom pb-0" href="#">Новости и акции <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link border-bottom pb-0" href="#">Адреса и номера телефонов</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link border-bottom pb-0" href="#">О компании</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link border-bottom pb-0" href="#">Покупка, гарантия и ремонт</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link border-bottom pb-0" href="#">Вакансии</a>
-        </li>
-      </ul>
+    <ul class="nav navbar-nav nav-top">
+      <li class="">
+        <a href="/news">Новости и акции</a>
+      </li><li class="">
+      <a href="/shops">Адреса и номера телефонов</a>
+    </li>
 
-      <ul class="navbar-nav mr-auto nav-2-line">
-        <li class="nav-item active">
-          <a class="nav-link dropdown-menu-left" href="#">СМАРТФОНЫ <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">4G МОДЕМЫ</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">ПРОДУКЦИЯ XIAOMI</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">АКСЕССУАРЫ</a>
-        </li>
+      <li class="">
+        <a href="/about">О компании</a>
+      </li>
 
-        <form class="form-inline md-form form-sm">
-          <i class="fas fa-search active" aria-hidden="true"></i>
-          <input class="form-control form-control-sm w-75" type="text" placeholder="Поиск" aria-label="Search">
-        </form>
+      <li class="">
+        <a href="/guarantee">Покупка, гарантия и ремонт</a>
+      </li>
 
-      </ul>
+      <li class="">
+        <a href="/vakansii">Вакансии</a>
+      </li>
+    </ul>
 
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container -->
+    <ul class="nav navbar-nav nav-bottom navbar-nav-custom">
+      <li class="">
+
+        <a href="catalog/phones">Смартфоны</a>
+        <ul>
+          <li class=""><a href="catalog/phones?brand=1">Apple</a></li>
+          <li class=""><a href="catalog/phones?brand=23">Realme</a></li>
+          <li class=""><a href="catalog/phones?brand=2">Samsung</a></li>
+          <li class=""><a href="catalog/phones?brand=21">Umidigi</a></li>
+          <li class=""><a href="catalog/phones?brand=18">Xiaomi</a></li>
+          <li class=""><a href="catalog/phones?brand=15">ZTE</a></li>
+        </ul>
+      </li>
+      <li class="">
+        <a href="catalog/4g-modemy">4G модемы</a>
+      </li>
+      <li class="">
+        <a href="catalog/produktsiya-xiaomi">Продукция Xiaomi</a>
+      </li>
+      <li class="">
+        <a href="catalog/accessories">Аксессуары</a>
+      </li>
+
+      <li class="nav-search-wrapper">
+        <div class="nav-search">
+          <div class="nav-search-btn">
+            <i class="icon-search"></i>
+            <span>Поиск</span>
+          </div>
+
+          <div class="nav-search-inner">
+            <div class="nav-search-input">
+              <form action="/catalog" method="get" id="search_form">
+                <input type="text" name="keyword" placeholder="Поиск по каталогу" value="">
+              </form>
+            </div>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </div>
 </nav>
 <div class="container">
 
@@ -83,31 +99,31 @@
       <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
     </ol>
     <div class="carousel-inner">
-      <div class="carousel-item active">
+      <div class="item active">
         <img class="d-block w-100" src="img/main-slider.png" alt="First slide">
       </div>
-      <div class="carousel-item">
+      <div class="item">
         <img class="d-block w-100" src="img/main-slider.png" alt="Second slide">
       </div>
-      <div class="carousel-item">
+      <div class="item">
         <img class="d-block w-100" src="img/main-slider.png" alt="Second slide">
       </div>
-      <div class="carousel-item">
+      <div class="item">
         <img class="d-block w-100" src="img/main-slider.png" alt="Second slide">
       </div>
-      <div class="carousel-item">
+      <div class="item">
         <img class="d-block w-100" src="img/main-slider.png" alt="Second slide">
       </div>
-      <div class="carousel-item">
+      <div class="item">
         <img class="d-block w-100" src="img/main-slider.png" alt="Second slide">
       </div>
     </div>
-    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-      <img class="carousel-circle" src="img/carousel-prev.png" alt="">
+    <a class="left carousel-control" href="#carouselExampleIndicators" role="button" data-slide="prev">
+      <img class="carousel-circle glyphicon glyphicon-chevron-left" src="img/carousel-prev.png" alt="">
       <span class="sr-only">Previous</span>
     </a>
-    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-      <img src="img/carousel-next.png" alt="">
+    <a class="right carousel-control" href="#carouselExampleIndicators" role="button" data-slide="next">
+      <img class="glyphicon glyphicon-chevron-right" src="img/carousel-next.png" alt="">
       <span class="sr-only">Next</span>
     </a>
   </div>
@@ -116,14 +132,14 @@
 
   <h1>Новинки</h1>
   <ul class="nav nav-tabs news-menu justify-content-between mt-3 mb-4">
-    <li role="presentation" class="active">
-      <a data-toggle="tab" class="news-item nav-link" href="#tels">Телефоны</a>
+    <li class="nav nav-tabs active">
+      <a data-toggle="tab" class="nav-link" href="#tels">Телефоны</a>
     </li>
-    <li role="presentation" class="nav-item">
-      <a data-toggle="tab" class="news-item nav-link" href="#accessories">Аксессуары</a>
+    <li class="nav nav-tabs">
+      <a data-toggle="tab" class="nav-link" href="#accessories">Аксессуары</a>
     </li>
-    <li role="presentation" class="nav-item">
-      <a data-toggle="tab" class="news-item nav-link" href="#products">Продукция xiaomi</a>
+    <li class="nav nav-tabs">
+      <a data-toggle="tab" class="nav-link" href="#products">Продукция xiaomi</a>
     </li>
   </ul>
 
@@ -131,7 +147,7 @@
   <div class="row pt-2">
 
     <!-- Slider 2 -->
-    <div class="col-lg-9 new-product-items">
+    <div class="col-md-9 new-product-items">
 
       <div class="tab-content">
 
@@ -243,7 +259,7 @@
 
         </div>
 
-        <div id="accessories" class="tab-pane fade">
+        <div id="accessories" class="tab-pane">
 
           <div class="slider-new-tel-three slick-slider">
             <div>
@@ -352,7 +368,7 @@
 
         </div>
 
-        <div id="products" class="tab-pane fade">
+        <div id="products" class="tab-pane">
 
           <div class="slider-new-tel-three slick-slider">
             <div>
@@ -469,7 +485,7 @@
       <div class=""></div>-->
     </div><!-- /.col-9 -->
 
-    <div class="col-lg-3 news-items">
+    <div class="col-md-3 news-items">
       <div class="card text-white p-2" style="background-color: #FF6433">
         <a href="/">
           <div class="text-uppercase card-news-head">REDMI K30 8/128 CDMA - СНОВА В ПРОДАЖЕ...</div>
@@ -801,9 +817,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
         integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
         crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-        crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 <script src="assets/js/tooltips.js"></script>
 <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 <script src="js/app.js"></script>
