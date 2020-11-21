@@ -116,12 +116,10 @@ body {
 }
 
 .card.card-tel {
-    width: 262px;
-    height: 444px;
+    min-height: 444px;
     justify-content: center;
     align-items: center;
 
-    padding-top: 34px;
     border: 3px solid #00a658;
     background-color: #292929;
 
@@ -157,6 +155,7 @@ body {
     top: 50%;
     transform: translateY(-50%);
     z-index: 1000;
+    left: -6px;
 }
 
 .slider-new-tel-three .slick-prev.slick-arrow:hover {
@@ -179,6 +178,7 @@ body {
     top: 50%;
     transform: translateY(-50%);
     z-index: 1000;
+    right: -6px;
 }
 
 .slider-new-tel-three .slick-next.slick-arrow:hover {
@@ -222,6 +222,7 @@ body {
     top: 50%;
     transform: translateY(-50%);
     z-index: 1000;
+    left: -6px;
 }
 
 .slider-new-tel-four .slick-prev.slick-arrow:hover {
@@ -244,6 +245,7 @@ body {
     top: 50%;
     transform: translateY(-50%);
     z-index: 1000;
+    right: -6px;
 }
 
 .slider-new-tel-four .slick-next.slick-arrow:hover {
@@ -264,14 +266,24 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+
+}
+
+.card-tel-img a {
+    height: 200px;
+    padding: 1rem 2rem;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .card-tel-img a:focus {
     outline: 0;
 }
 .card-tel-img img {
-    width: 200px;
-    height: 202px;
+    max-width: 100%;
+    height: auto;
+    max-height: 100%;
 }
 
 .slick-track .card-tel-super:before {
@@ -451,6 +463,19 @@ footer .soc a {
 @media (max-width: 1200px) {
     .google-map {
         width: 700px;
+    }
+}
+@media (min-width: 991px) {
+    .new-product-items{
+        padding-right: 0;
+    }
+}
+@media (max-width: 991px) {
+
+    .news-items{
+        display: flex;
+        align-items: center;
+        margin: 2rem 15px;
     }
 }
 
