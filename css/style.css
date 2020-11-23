@@ -42,6 +42,10 @@ body {
     cursor: pointer;
 }
 
+.carousel.slide {
+    margin-top: 171px;
+}
+
 .carousel-indicators li {
     border: 2px solid #fff;
     border-radius: 100%;
@@ -71,7 +75,7 @@ body {
 .carousel-control .glyphicon-chevron-right{
     width: 77px;
     height: 77px;
-
+    transform: translateY(-50%);
 }
 .carousel-control .glyphicon-chevron-left{
     left: 30px
