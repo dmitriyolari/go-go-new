@@ -19,6 +19,13 @@ body {
     font-size: 12px;
 }
 
+.navbar-default .navbar-brand {
+    background: url(../img/logo.png) no-repeat center;
+    /*width: 88px;
+    height: 67px;
+    margin-right: 40px;*/
+}
+
 .nav-2-line {
     font-family: Scada, sans-sserif;
     font-size: 18px;
@@ -58,16 +65,16 @@ body {
 
 .carousel-control .glyphicon-chevron-left,
 .carousel-control .glyphicon-chevron-right{
-    width: 50px;
-    height: 50px;
+    width: 77px;
+    height: 77px;
 
 }
 .carousel-control .glyphicon-chevron-left{
-    left: -15px
+    left: 30px
 }
 
 .carousel-control .glyphicon-chevron-right{
-    right: -15px;
+    right: 30px;
 }
 
 .carousel-control-prev,
