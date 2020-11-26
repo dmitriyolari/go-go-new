@@ -161,6 +161,10 @@ body {
     color: rgb(255,255,255);
 }
 
+.new-product-items {
+    padding-left: 0;
+}
+
 .card-date {
     font-size: 14px;
     line-height: 1.43;
@@ -193,6 +197,10 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+
+.slick-initialized .slick-slide {
+    outline: 0;
 }
 
 .slider-new-tel-three .slick-prev.slick-arrow {
@@ -248,6 +256,10 @@ body {
 /* the parent */
 .slider-new-tel-three .slick-list {
     margin: 0 8px !important;
+}
+
+#popular-goods {
+    margin-left: 15px;
 }
 
 .slider-new-tel-four .slick-slide > div {
@@ -315,6 +327,7 @@ body {
 }
 
 .slick-track .card-tel-hit {
+    position: relative;
     border: 3px solid #cd8240;
 }
 
