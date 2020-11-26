@@ -379,12 +379,12 @@ hr {
     cursor: pointer
 }
 
-h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
-    font-family: inherit;
-    font-weight: 500;
-    line-height: 1.1;
-    color: inherit
-}
+/*h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {*/
+/*    font-family: inherit;*/
+/*    font-weight: 500;*/
+/*    line-height: 1.1;*/
+/*    color: inherit*/
+/*}*/
 
 h1 small, h2 small, h3 small, h4 small, h5 small, h6 small, .h1 small, .h2 small, .h3 small, .h4 small, .h5 small, .h6 small, h1 .small, h2 .small, h3 .small, h4 .small, h5 .small, h6 .small, .h1 .small, .h2 .small, .h3 .small, .h4 .small, .h5 .small, .h6 .small {
     font-weight: normal;
@@ -418,9 +418,9 @@ h2, .h2 {
     font-size: 30px
 }
 
-h3, .h3 {
-    font-size: 24px
-}
+/*h3, .h3 {*/
+/*    font-size: 24px*/
+/*}*/
 
 h4, .h4 {
     font-size: 18px
@@ -2106,7 +2106,7 @@ textarea.form-group-lg .form-control, select[multiple].form-group-lg .form-contr
     }
 }
 
-.btn {
+/*.btn {
     display: inline-block;
     margin-bottom: 0;
     font-weight: normal;
@@ -2125,7 +2125,7 @@ textarea.form-group-lg .form-control, select[multiple].form-group-lg .form-contr
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none
-}
+}*/
 
 .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn.active.focus {
     outline: thin dotted;
@@ -4415,9 +4415,9 @@ h2 {
     font-size: 24px
 }
 
-h3 {
+/*h3 {
     font-size: 18px
-}
+}*/
 
 h4 {
     font-size: 16px

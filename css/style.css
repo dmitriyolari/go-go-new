@@ -258,7 +258,7 @@ body {
     margin: 0 8px !important;
 }
 
-#popular-goods {
+.popular-goods {
     margin-left: 15px;
 }
 
@@ -458,16 +458,19 @@ body {
     text-decoration: underline;
 }
 
-.store-map-wrap {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-
-    grid-column-gap: 30px;
+.store {
+    margin-bottom: 87px;
 }
 
 .google-map {
     width: 750px;
+    height: 610px;
+}
+
+.column-info {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
     height: 610px;
 }
 
@@ -484,6 +487,10 @@ body {
 
 .card-bg-adress div {
     color: #c4c4c4;
+}
+
+.card-title {
+    margin-top: 0;
 }
 
 .adress-street {
@@ -507,8 +514,17 @@ body {
     margin-left: 7px;
 }
 
-.btn.btn-success.btn-block.btn-rounded.text-light {
+.btn.btn-success.btn-block.btn-rounded {
     text-decoration: underline;
+    text-align: center;
+
+    height: 43px;
+    padding: 8px 0 9px;
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1,625;
+    color: #eee;
 }
 
 .footer-menu {
