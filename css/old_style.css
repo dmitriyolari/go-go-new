@@ -298,7 +298,6 @@ input, button, select, textarea {
 }
 
 a {
-    color: #00a658;
     text-decoration: none
 }
 
@@ -2578,7 +2577,6 @@ tbody.collapse.in {
 .nav > li > a {
     position: relative;
     display: block;
-    padding: 5px 10px
 }
 
 .nav > li > a:hover, .nav > li > a:focus {
@@ -2623,7 +2621,7 @@ tbody.collapse.in {
 }
 
 .nav-tabs > li > a {
-    margin-right: 2px;
+    /*margin-right: 2px;*/
     line-height: 1.42857143;
     border: 1px solid transparent;
     border-radius: 4px 4px 0 0
@@ -2634,7 +2632,6 @@ tbody.collapse.in {
 }
 
 .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
-    color: #ddd;
     background-color: #212121;
     border: 1px solid #3f4241;
     border-bottom-color: transparent;
@@ -2915,7 +2912,7 @@ tbody.collapse.in {
 
 @media (min-width: 768px) {
     .navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand {
-        margin-left: -15px
+        margin-left: 15px
     }
 }
 
@@ -4407,8 +4404,6 @@ hr, .hr {
 }
 
 h1, h2, h3, h4, h5, h5 {
-    font-family: Scada, sans-serif;
-    text-transform: uppercase;
     margin: 1.5em 0 1em
 }
 
@@ -4872,20 +4867,16 @@ a.bg-danger:hover {
 }
 
 .nav.nav-tabs > li > a {
-    color: #999;
     text-decoration: none;
     font-size: 16px;
     border-radius: 0;
-    padding: 9px 18px
 }
 
 .nav.nav-tabs > li > a:focus, .nav.nav-tabs > li > a:hover {
     background: none;
-    color: #ddd
 }
 
 .nav.nav-tabs > li.active > a {
-    color: #ddd;
     background-image: -webkit-linear-gradient(top, rgba(60, 61, 60, 0.74902) 0, #202120 100%);
     background-image: -o-linear-gradient(top, rgba(60, 61, 60, 0.74902) 0, #202120 100%);
     background-image: linear-gradient(to bottom, rgba(60, 61, 60, 0.74902) 0, #202120 100%);
@@ -4894,7 +4885,6 @@ a.bg-danger:hover {
 }
 
 .nav.nav-tabs > li.active > a:focus, .nav.nav-tabs > li.active > a:hover {
-    color: #ddd;
     border-bottom-color: #202120
 }
 
