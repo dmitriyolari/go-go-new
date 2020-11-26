@@ -93,7 +93,7 @@ body {
 }
 
 .news-items .card{
-    padding: 0.5rem;
+    padding: 7px 10px 4px;
 }
 
 .news-menu {
@@ -432,6 +432,7 @@ body {
 
 .card.text-white {
     line-height: 1.25;
+    height: 150px;
 }
 
 .card-news-head {
@@ -441,7 +442,19 @@ body {
 }
 
 .card.text-white a {
+    display: flex;
+    flex-direction: column;
+
     color: #fff;
+    text-decoration: none;
+}
+
+.card.text-white a:hover {
+    text-decoration: underline;
+}
+
+a small {
+    font-weight: 300;
 }
 
 .news-2 {
