@@ -170,10 +170,11 @@ body {
 }
 
 .card.card-tel {
-    min-width: 1px;
+    display: grid;
+    padding-bottom: 28px;
+
+    width: 262px;
     min-height: 444px;
-    justify-content: center;
-    align-items: center;
 
     border: 3px solid #00a658;
     background-color: #292929;
