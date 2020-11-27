@@ -63,14 +63,17 @@ body {
     margin-right: 0;
 }
 
-.carousel-circle {
-    opacity: 1;
+.carousel-indicators li.active {
+    background-color: #00A658;
+    margin-right: 32px;
 }
 
-.carousel-indicators li.active {
-    margin: 0 32px 1px 0;
-    border: 2px solid #fff;
-    border-radius: 100%;
+.carousel-indicators li.active:last-child {
+    margin-right: 0;
+}
+
+.carousel-circle {
+    opacity: 1;
 }
 
 .carousel-control .glyphicon-chevron-left,
@@ -133,6 +136,7 @@ body {
     background-color: transparent !important;
     border: none !important;
     background-image: unset !important;
+    text-decoration: none;
 }
 
 .nav-tabs > li.active > .nav-link{

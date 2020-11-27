@@ -45,9 +45,13 @@ $(function () {
       }
     ]
   });
-  $(".carouselExampleIndicators").slick({
+  $(document).ready(function(){
+    $('#myCarousel').carousel({
+      pause: true,
+      interval: false
+    });
 
-  })
+  });
 
   $('a[data-toggle="tab"]').on('shown.bs.tab', function (e) {
     $('.slider-new-tel-three').slick('setPosition');
