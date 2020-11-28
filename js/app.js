@@ -6,6 +6,7 @@ $(function () {
     slidesToShow: 3,
     slidesToScroll: 3,
     speed: 1000,
+    swipeToSlide: true,
     responsive: [
       {
         breakpoint: 991,
@@ -28,6 +29,7 @@ $(function () {
     slidesToShow: 4,
     slidesToScroll: 4,
     speed: 1000,
+    swipeToSlide: true,
     responsive: [
       {
         breakpoint: 991,
