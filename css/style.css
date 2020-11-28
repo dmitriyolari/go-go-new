@@ -261,7 +261,7 @@ body {
     top: 50%;
     transform: translateY(-50%);
     z-index: 1000;
-    right: -6px;
+    right: -1px;
 }
 
 .slider-new-tel-three .slick-next.slick-arrow:hover {
@@ -332,7 +332,7 @@ body {
     top: 50%;
     transform: translateY(-50%);
     z-index: 1000;
-    right: -6px;
+    right: -1px;
 }
 
 .slider-new-tel-four .slick-next.slick-arrow:hover {
