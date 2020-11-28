@@ -45,13 +45,16 @@ $(function () {
       }
     ]
   });
-  $(document).ready(function(){
+ /* $(document).ready(function(){
     $('#myCarousel').carousel({
       pause: true,
       interval: false
     });
 
-  });
+  });*/
+   $(".carouselExampleIndicators").slick({
+
+   });
 
   $('a[data-toggle="tab"]').on('shown.bs.tab', function (e) {
     $('.slider-new-tel-three').slick('setPosition');

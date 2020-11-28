@@ -95,6 +95,10 @@ body {
     right: 30px;
 }
 
+/*.right.carousel-control:focus {*/
+/*    opacity: .5;*/
+/*}*/
+
 .carousel-control-prev,
 .carousel-control-next {
     opacity: .8;
@@ -142,10 +146,16 @@ body {
     border: none !important;
     background-image: unset !important;
     text-decoration: none;
+
+    color: #bebebe;
 }
 
-.nav-tabs > li.active > .nav-link{
+.nav-tabs > li.active > .nav-link,
+.nav-tabs > li.active > .nav-link:focus {
     color: #00a658;
+}
+
+.nav-tabs > li.active > .nav-link:hover {
     cursor: pointer;
 }
 
