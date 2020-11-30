@@ -196,7 +196,7 @@ body {
     display: grid;
     padding-bottom: 28px;
 
-    width: 262px;
+    min-width: 1px;
     min-height: 444px;
 
     border: 3px solid #00a658;
@@ -224,7 +224,7 @@ body {
 
 .slider-new-tel-three .slick-prev.slick-arrow {
     content: '';
-    background: url("../img/slick-prev.png") center no-repeat;
+    background: url("../img/slick-prev.svg") center no-repeat;
     border-radius: 100%;
 
     font-size: 47px;
@@ -239,6 +239,8 @@ body {
     transform: translateY(-50%);
     z-index: 1000;
     left: -6px;
+
+    transition: background .03s linear;
 }
 
 .slider-new-tel-three .slick-prev.slick-arrow:hover {
@@ -247,7 +249,7 @@ body {
 
 .slider-new-tel-three .slick-next.slick-arrow {
     content: '';
-    background: url("../img/slick-next.png") center no-repeat;
+    background: url("../img/slick-next.svg") center no-repeat;
     border-radius: 100%;
 
     font-size: 47px;
@@ -261,7 +263,9 @@ body {
     top: 50%;
     transform: translateY(-50%);
     z-index: 1000;
-    right: -1px;
+    right: -6px;
+
+    transition: background .03s linear;
 }
 
 .slider-new-tel-three .slick-next.slick-arrow:hover {
@@ -295,7 +299,7 @@ body {
 
 .slider-new-tel-four .slick-prev.slick-arrow {
     content: '';
-    background: url("../img/slick-prev.png") center no-repeat;
+    background: url("../img/slick-prev.svg") center no-repeat;
     border-radius: 100%;
 
     font-size: 47px;
@@ -310,6 +314,8 @@ body {
     transform: translateY(-50%);
     z-index: 1000;
     left: -6px;
+
+    transition: background .03s linear;
 }
 
 .slider-new-tel-four .slick-prev.slick-arrow:hover {
@@ -318,7 +324,7 @@ body {
 
 .slider-new-tel-four .slick-next.slick-arrow {
     content: '';
-    background: url("../img/slick-next.png") center no-repeat;
+    background: url("../img/slick-next.svg") center no-repeat;
     border-radius: 100%;
 
     font-size: 47px;
@@ -332,7 +338,9 @@ body {
     top: 50%;
     transform: translateY(-50%);
     z-index: 1000;
-    right: -1px;
+    right: -6px;
+
+    transition: background .03s linear;
 }
 
 .slider-new-tel-four .slick-next.slick-arrow:hover {
@@ -451,7 +459,7 @@ body {
 
 .card.text-white {
     line-height: 1.25;
-    height: 150px;
+    min-height: 150px;
 }
 
 .card-news-head {
@@ -581,6 +589,16 @@ footer .soc a {
     .google-map {
         width: 700px;
     }
+
+    .news-items .card {
+        padding: 4px;
+    }
+
+    .card-news-head {
+        font-size: 17px;
+        line-height: 1.3;
+        padding-bottom: 7px;
+    }
 }
 @media (min-width: 991px) {
     .new-product-items{
@@ -592,7 +610,7 @@ footer .soc a {
     .news-items{
         display: flex;
         align-items: center;
-        margin: 2rem 15px;
+        margin: 2rem 15px 2rem 0;
     }
 }
 
