@@ -1,2 +1,2 @@
 MOBILE VERSION
-Author: Dmitriy Olari 
+# Author: Dmitriy Olari 
