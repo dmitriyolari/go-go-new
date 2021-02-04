@@ -1,13 +1,251 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Главная страница<</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 
-    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+<html lang="ru">
+<head>
+    <base href="https://www.go-go.md/"/>
+    <title>Магазин GO</title>
+
+
+    <meta charset="UTF-8">
+    <meta name="description" content="" />
+    <meta name="keywords"    content="" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=0">
+
+
+    <link href="css/old-style.css" rel="stylesheet" type="text/css" media="screen"/>
+    <link href="css/old-mobile.css" rel="stylesheet" type="text/css" media="screen"/>
+    <link href="img/favicon.ico" rel="icon" type="image/x-icon"/>
+    <link href="img/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+    <link rel="stylesheet" href="css/fonts/GoIconFont.woff">
+    <link rel="stylesheet" href="css/fonts/theme_fonts_icomoon_icomoon_style.css">
+
+    <script src="js/jquery.js"></script>
+    <script src="js/mobile.js"></script>
+    <script src="js/search.js"></script>
+    <script src="js/shops.js"></script>
+    <script src="js/swiper.min.js"></script>
+
 </head>
 <body>
+<nav class="navbar navbar-default">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed text-success">
+                <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+            </button>
+            <a href="/" class="navbar-brand"></a>
+            <div class="nav-search">
+                <div class="nav-search-btn">
+                    <i class="icon-search"></i>
+                </div>
+                <div class="nav-search-inner">
+                    <div class="nav-search-close"><i class="icon-close"></i></div>
+                    <div class="nav-search-input">
+                        <form action="/catalog" method="get" id="search_form">
+                            <input type="text" name="keyword" value="">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>
+<div class="nav-expanded">
+    <ul class="nav-expanded-list">
+        <li class="nav-expanded-item title">Каталог:</li>
+        <li class="nav-expanded-item">
+            <a href="catalog/phones" class="nav-expanded-link text-success">Смартфоны</a>
+        </li>
+        <li class="nav-expanded-item">
+            <a href="catalog/produktsiya-xiaomi" class="nav-expanded-link text-success">Продукция XIAOMI</a>
+        </li>
+        <li class="nav-expanded-item">
+            <a href="catalog/accessories" class="nav-expanded-link text-success">Аксессуары</a>
+        </li>
+
+        <li class="nav-expanded-item">
+            <a href="catalog/4g-modemy" class="nav-expanded-link text-success">4G модемы</a>
+        </li>
+
+
+
+        <li class="nav-expanded-devider"></li>
+
+        <li class="nav-expanded-item">
+            <a href="/shops" class="nav-expanded-link">
+                <i class="nav-expanded-icon icon-map-marker"></i>Адреса и номера телефонов
+            </a>
+        </li>
+
+        <li class="nav-expanded-devider"></li>
+
+        <li class="nav-expanded-item">
+            <a href="/news" class="nav-expanede-link">Новости и акции</a>
+        </li>
+        <li class="nav-expanded-item">
+            <a href="https://www.agroprombank.com/privateclients/credit_card/" class="nav-expanede-link">Покупка в кредит</a>
+        </li>
+        <li class="nav-expanded-item">
+            <a href="https://www.agroprombank.com/privateclients/rassrochka/" class="nav-expanede-link">Покупка в рассрочку</a>
+        </li>
+        <li class="nav-expanded-item">
+            <a href="/about" class="nav-expanede-link">О компании</a>
+        </li>
+        <li class="nav-expanded-item">
+            <a href="/guarantee" class="nav-expanede-link">Покупка и гарантия</a>
+        </li>
+
+        <li class="nav-expanded-devider"></li>
+        <li class="nav-expanded-item">
+
+            <div class="worktime-wrap">
+                <div class="text-white"><a href="tel:077822228" class="tel">0 (778) 2-22-28</a></div>
+                <div class="text-muted">Служба поддержки клиентов</div>
+                <br>
+                <div>Пн-Пт 9:00-18:00</div>
+                <div>Сб 9:00-13:00</div>
+                <div>Вс выходной</div>
+            </div>
+        </li>
+        <li class="nav-expanded-devider"></li>
+
+    </ul>
+
+</div>
+
+
+
+<div class="m-main-slider">
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide" onclick="window.location.href='http://go-go.md/products/note-7-lite-x656-464-new-zelenyj-volte-only'">
+                <img src="img/resize/IMG_20201227_211508_992.1024x1024.jpg" class="swiper-slider-image" alt="">
+            </div>
+            <div class="swiper-slide" onclick="window.location.href='http://go-go.md/catalog?keyword=1212pro'">
+                <img src="img/resize/-iphone-c.1024x1024.png" class="swiper-slider-image" alt="">
+            </div>
+            <div class="swiper-slide" onclick="window.location.href='http://go-go.md/catalog?keyword=Mi+10t+5g'">
+                <img src="img/resize/-10Т-с-кнопкой.1024x1024.png" class="swiper-slider-image" alt="">
+            </div>
+            <div class="swiper-slide" onclick="window.location.href='http://go-go.md/catalog?keyword=realme+6'">
+                <img src="img/resize/realme-6-6i.1024x1024.png" class="swiper-slider-image" alt="">
+            </div>
+            <div class="swiper-slide" onclick="window.location.href='http://go-go.md/catalog?keyword=poco+x3'">
+                <img src="img/resize/poco-x3-slider-c3.1024x1024.jpg" class="swiper-slider-image" alt="">
+            </div>
+            <div class="swiper-slide" onclick="window.location.href='http://go-go.md/catalog?keyword=mi+note+10+lite'">
+                <img src="img/resize/Lite-2.1024x1024.JPG" class="swiper-slider-image" alt="">
+            </div>
+            <div class="swiper-slide" onclick="window.location.href='http://go-go.md/catalog?keyword=redmi+9'">
+                <img src="img/resize/EwLCR2YqzvFQDvn87obB.1024x1024.jpg" class="swiper-slider-image" alt="">
+            </div>
+            <div class="swiper-slide" onclick="window.location.href='http://go-go.md/catalog?keyword=note+9s'">
+                <img src="img/resize/Note9S6.1024x1024.png" class="swiper-slider-image" alt="">
+            </div>
+            <div class="swiper-slide" onclick="window.location.href='https://www.agroprombank.com/privateclients/rassrochka/'">
+                <img src="img/resize/rassrochka-go.1024x1024.jpg" class="swiper-slider-image" alt="">
+            </div>
+        </div>
+        <div class="swiper-pagination"></div>
+    </div>
+</div>
+<div class="footer-nav">
+    <ul class="footer-nav-list">
+        <li class="footer-nav-item"><a href="catalog/phones"><i class="icon-phone footer-nav-icon"></i>
+            <div class="footer-nav-label">Смартфоны</div></a></li>
+        <li class="footer-nav-item"><a href="catalog/accessories"><i class="icon-headphones footer-nav-icon"></i>
+            <div class="footer-nav-label">Аксессуары</div></a></li>
+        <li class="footer-nav-item"><a href="catalog/produktsiya-xiaomi">
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="0 0 448 448" style="enable-background:new 0 0 448 448;" xml:space="preserve" width="45px" height="45px" class=""><g><g>
+					<g>
+						<path d="M208,48H0v352h64V112h144c26.464,0,48,21.536,48,48v240h64V160C320,98.24,269.76,48,208,48z" data-original="#000000" class="active-path" data-old_color="#ffffff" fill="#ffffff"></path>
+					</g>
+					</g><g>
+						<g>
+							<rect x="128" y="176" width="64" height="224" data-original="#000000" class="active-path" data-old_color="#ffffff" fill="#ffffff"></rect>
+						</g>
+					</g><g>
+						<g>
+							<rect x="384" y="48" width="64" height="352" data-original="#000000" class="active-path" data-old_color="#ffffff" fill="#ffffff"></rect>
+						</g>
+					</g></g>
+				</svg>
+            <div class="footer-nav-label">Xiaomi</div></a></li>
+
+    </ul>
+    <div class="clearfix"></div>
+</div>
+
+<div class="container main-help-link-wrap">
+
+    <div class="row ">
+
+        <div class="col-xs-12 main-help-link-item">
+            <a href="https://www.agroprombank.com/privateclients/rassrochka/" class="main-news-text">ПОКУПКА В РАССРОЧКУ</a>
+        </div>
+        <div class="col-xs-12 main-help-link-item">
+            <a href="https://www.agroprombank.com/privateclients/credit_card/" class="main-news-text">ПОКУПКА В КРЕДИТ</a>
+        </div>
+        <div class="col-xs-12 main-help-link-item">
+            <a href="/news/" class="main-news-text">НОВОСТИ И АКЦИИ</a>
+        </div>
+
+    </div>
+
+</div>
+
+
+<div class="container main-news">
+    <a href="/news#80" class="main-news-item">
+        <div class="row ">
+            <div class="col-xs-2">
+                <div class="main-news-icon news-item-bage "></div>
+            </div>
+            <div class="col-xs-10">
+                <div class="main-news-text">График работы службы поддержки...</div>
+            </div>
+        </div>
+    </a>
+    <a href="/news#79" class="main-news-item">
+        <div class="row ">
+            <div class="col-xs-2">
+                <div class="main-news-icon news-item-bage bg-danger megaphone"></div>
+            </div>
+            <div class="col-xs-10">
+                <div class="main-news-text">С наступающим Новым 2021 годом!</div>
+            </div>
+        </div>
+    </a>
+    <a href="/news#78" class="main-news-item">
+        <div class="row ">
+            <div class="col-xs-2">
+                <div class="main-news-icon news-item-bage bg-warning percent"></div>
+            </div>
+            <div class="col-xs-10">
+                <div class="main-news-text">Redmi K30 8/128 CDMA - снова в продаже. Доступен в ярких цветах уходящего лета!</div>
+            </div>
+        </div>
+    </a>
+</div>
+
+
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-6 footer-phone"><a href="tel:077822228">0 (778) 2-22-28</a></div>
+            <div class="col-xs-6 footer-icons">
+                <a href="https://www.instagram.com/go_go.md/" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="24px" height="24px"><g><path d="m437 0h-362c-41.351562 0-75 33.648438-75 75v362c0 41.351562 33.648438 75 75 75h362c41.351562 0 75-33.648438 75-75v-362c0-41.351562-33.648438-75-75-75zm-180 390c-74.441406 0-135-60.558594-135-135s60.558594-135 135-135 135 60.558594 135 135-60.558594 135-135 135zm150-240c-24.8125 0-45-20.1875-45-45s20.1875-45 45-45 45 20.1875 45 45-20.1875 45-45 45zm0 0" data-original="#000000" class="active-path" data-old_color="#0fa857" fill="#0fa857"/><path d="m407 90c-8.277344 0-15 6.722656-15 15s6.722656 15 15 15 15-6.722656 15-15-6.722656-15-15-15zm0 0" data-original="#000000" class="active-path" data-old_color="#0fa857" fill="#0fa857"/><path d="m257 150c-57.890625 0-105 47.109375-105 105s47.109375 105 105 105 105-47.109375 105-105-47.109375-105-105-105zm0 0" data-original="#000000" class="active-path" data-old_color="#0fa857" fill="#0fa857"/></g> </svg>
+                </a>
+                <a href="https://www.facebook.com/gopmr" target="_blank"><i class="icon-facebook"></i></a>
+                <a href="http://ok.ru/mobilnye" target="_blank"><i class="icon-odnoklassniki"></i></a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 
 </body>
 </html>
