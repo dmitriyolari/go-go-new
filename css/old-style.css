@@ -3817,8 +3817,8 @@ tbody.collapse.in {
 
 @font-face {
     font-family: 'GoIconFont';
-    src: url('fonts/GoIconFont.woff');
-    src: url('fonts/GoIconFont.woff') format('embedded-opentype'), url('fonts/GoIconFont.woff') format('woff'), url('css/fonts/GoIconFont.ttf') format('truetype'), url('css/fonts/GoIconFont.woff') format('svg');
+    src: url('fonts/GoIconFont.eot?-dwowab');
+    src: url('fonts/GoIconFont.eot?#iefix-dwowab') format('embedded-opentype'), url('fonts/GoIconFont.woff?-dwowab') format('woff'), url('fonts/GoIconFont.ttf?-dwowab') format('truetype'), url('fonts/GoIconFont.svg?-dwowab#GoIconFont') format('svg');
     font-weight: normal;
     font-style: normal
 }
