@@ -1,13 +1,13 @@
 * {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .caption-header {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 700;
   font-size: 32px;
-  line-height: 0.8125;
+  line-height: .8125;
   text-align: center;
 }
-
 /*# sourceMappingURL=new-style.css.map */
