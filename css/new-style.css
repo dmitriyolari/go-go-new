@@ -1,13 +1,101 @@
 * {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
-.caption-header {
-  font-family: 'Roboto', sans-serif;
+.caption {
+  font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 32px;
-  line-height: .8125;
+  line-height: 0.8125;
   text-align: center;
 }
+
+.caption--address {
+  text-align: left;
+}
+
+.store {
+  padding: 0 16px 4px 14px;
+  background-color: #212121;
+}
+
+.card-text {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.44;
+}
+
+.adress-street {
+  font-size: 16px;
+  line-height: 1.625;
+}
+
+.shop-info {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.working-hours img,
+.tel-number img {
+  margin-right: 7px;
+}
+
+.btn-success {
+  color: #fff;
+  background-color: #5cb85c;
+  border-color: #4cae4c;
+}
+
+.btn-success:focus,
+.btn-success.focus {
+  color: #fff;
+  background-color: #449d44;
+  border-color: #255625;
+}
+
+.btn-success:hover {
+  color: #fff;
+  background-color: #449d44;
+  border-color: #398439;
+}
+
+.btn-success:active,
+.btn-success.active,
+.open > .dropdown-toggle.btn-success {
+  color: #fff;
+  background-color: #449d44;
+  background-image: none;
+  border-color: #398439;
+}
+
+.btn-block {
+  display: block;
+  width: 100%;
+}
+
+.btn-block + .btn-block {
+  margin-top: 5px;
+}
+
+input[type=submit].btn-block,
+input[type=reset].btn-block,
+input[type=button].btn-block {
+  width: 100%;
+}
+
+a.btn-rounded {
+  margin: 34.37px auto 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 95%;
+  border-radius: 50px;
+}
+
+.footer {
+  margin: 10px 0;
+}
+
 /*# sourceMappingURL=new-style.css.map */
