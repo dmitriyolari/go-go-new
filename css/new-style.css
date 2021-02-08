@@ -2,11 +2,17 @@
   box-sizing: border-box;
 }
 
+body {
+  padding-bottom: 5px;
+}
+
 .caption {
+  margin: 0;
+  padding: 18px 0;
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 32px;
-  line-height: 0.8125;
+  line-height: 1.75;
   text-align: center;
 }
 
