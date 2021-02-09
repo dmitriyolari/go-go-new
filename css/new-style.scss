@@ -72,6 +72,36 @@ body {
   max-height: 100%;
 }
 
+.news-item-bage {
+  float: none;
+}
+
+.news-shares-wrap {
+  margin: 0 14px 15px 16px;
+  display: grid;
+  grid-template-columns: 40px 1fr;
+  grid-gap: 15px;
+
+  > .news-item-bage {
+    background-image: url(../img/percent.png);
+    width: 100%;
+    max-width: 40px;
+    height: 40px;
+  }
+
+  > a {
+    display: block;
+
+    font-family: 'Fira Sans', sans-serif;
+  }
+
+}
+
+.fas.fa-plus {
+  font-weight: 600;
+  color: #111;
+}
+
 .store {
   padding: 0 16px 4px 14px;
 
@@ -105,8 +135,7 @@ body {
 
 .btn-success {
   color: #fff;
-  background-color: #5cb85c;
-  border-color: #4cae4c;
+  background-color: #00a658;
 }
 .btn-success:focus,
 .btn-success.focus {
@@ -114,11 +143,7 @@ body {
   background-color: #449d44;
   border-color: #255625;
 }
-.btn-success:hover {
-  color: #fff;
-  background-color: #449d44;
-  border-color: #398439;
-}
+
 .btn-success:active,
 .btn-success.active,
 .open > .dropdown-toggle.btn-success {
@@ -141,7 +166,7 @@ input[type="button"].btn-block {
   width: 100%;
 }
 
-a.btn-rounded {
+.btn-rounded {
   margin: 34.37px auto 0;
 
   display: flex;
@@ -152,6 +177,13 @@ a.btn-rounded {
   width: 95%;
   border-radius: 50px;
 
+}
+
+.btn-small {
+  margin: 0 auto 23px;
+  width: 35%;
+  height: auto;
+  font-size: 13px;
 }
 
 .footer {
