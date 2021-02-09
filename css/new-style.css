@@ -66,6 +66,28 @@ body {
   max-height: 100%;
 }
 
+.main-help-link-wrap {
+  border: 2px solid rgba(153, 153, 139, 0.34);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-right: 0;
+  border-left: 0;
+  padding-top: 14px;
+  padding-bottom: 14px;
+}
+
+.main-help-link-item {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+}
+
+.main-help-link-item > img {
+  margin-right: 13px;
+  display: block;
+  width: 27px;
+  height: 27px;
+}
+
 .news-item-bage {
   float: none;
 }
