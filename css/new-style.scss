@@ -4,13 +4,14 @@
 
 body {
   padding-bottom: 5px;
+
+  font-family: 'Roboto', sans-serif;
 }
 
 .caption {
   margin: 0;
   padding: 18px 0;
 
-  font-family: 'Roboto', sans-serif;
   font-weight: 700;
   font-size: 32px;
   line-height: 1.75;
@@ -20,6 +21,14 @@ body {
 
 .caption--address {
   text-align: left;
+}
+
+.new-product-items {
+  margin: 0 16px 0 14px;
+}
+
+.slider-new-tel-two .slick-slide > div {
+  margin: 0 3px;
 }
 
 .slick-dots {
@@ -61,7 +70,8 @@ body {
 
 .card.card-tel {
   display: grid;
-  padding-bottom: 28px;
+
+  padding-bottom: 20px;
 
   min-width: 1px;
   height: 284px;
@@ -72,6 +82,16 @@ body {
   text-align: center;
 
   border-radius: 10px;
+
+  .card-body {
+
+  }
+}
+
+.card.card-tel a {
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 22px;
 }
 
 .card.card-tel:focus {
@@ -82,7 +102,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-end;
 }
 
 .card-tel-img {
@@ -107,6 +127,11 @@ body {
   max-width: 100%;
   height: auto;
   max-height: 100%;
+}
+
+.tel-price {
+  font-size: 15px;
+  line-height: 22px;
 }
 
 .container.main-help-link-wrap {
@@ -177,10 +202,14 @@ body {
 }
 
 .card-text {
-  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 18px;
   line-height: 1.44;
+}
+
+.card-tel-credit {
+  font-size: 12px;
+  line-height: 16px;
 }
 
 .adress-street {
