@@ -132,10 +132,6 @@ body {
   padding-bottom: 14px;
 }
 
-div.slick-slide.slick-cloned {
-  width: 173px;
-}
-
 .main-help-link-item {
   display: flex;
   align-items: center;
