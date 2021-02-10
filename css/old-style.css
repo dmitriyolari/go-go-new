@@ -4624,7 +4624,7 @@ a.bg-danger:hover {
 }
 
 .navbar-default .navbar-brand {
-    background: url("images/logo.png") no-repeat center;
+    background: url("../img/logo.png") no-repeat center;
     width: 88px;
     height: 67px;
     margin-right: 40px
