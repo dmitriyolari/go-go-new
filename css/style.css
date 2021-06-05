@@ -5,6 +5,10 @@ body {
     overflow-x: hidden;
 }
 
+h1, h2, h3, h4, h5, h5 {
+    text-transform: uppercase;
+}
+
 .container {
     max-width: 1170px;
 }
@@ -502,6 +506,10 @@ a small {
     margin-bottom: 87px;
 }
 
+.store h1 {
+    margin-bottom: 0.7em;
+}
+
 .google-map {
     width: 750px;
     height: 610px;
@@ -511,7 +519,7 @@ a small {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-    height: 610px;
+    height: 650px;
 }
 
 .store-adress {
@@ -520,7 +528,6 @@ a small {
 }
 
 .card-bg-adress {
-    background-color: #212121;
     max-width: 341px;
     border: 0;
 }
@@ -531,10 +538,12 @@ a small {
 
 .card-title {
     margin-top: 0;
+    margin-bottom: 0;
+    font-size: 18px;
 }
 
 .adress-street {
-    font-size: 18px;
+    font-size: 15px;
     line-height: 1.44;
     font-weight: 500;
 }
@@ -542,9 +551,9 @@ a small {
 .shop-info {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin-top: 20px;
+    margin-top: 2px;
 
-    font-size: 16px;
+    font-size: 14px;
     line-height: 1.625;
     font-weight: 500;
 }
@@ -554,15 +563,18 @@ a small {
     margin-left: 7px;
 }
 
+.working-hours img {
+    width: 20px;
+}
+
 .btn.btn-success.btn-block.btn-rounded {
     text-decoration: underline;
     text-align: center;
 
-    height: 43px;
     padding: 8px 0 9px;
 
     font-weight: 500;
-    font-size: 16px;
+    font-size: 15px;
     line-height: 1,625;
     color: #eee;
 }
